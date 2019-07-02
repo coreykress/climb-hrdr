@@ -1,7 +1,11 @@
 .App {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+.navbar {
   margin-top: 15px;
 }
-
 .App .navbar-brand {
   font-weight: bold;
 }
